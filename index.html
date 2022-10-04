@@ -7,46 +7,66 @@
     <title>CSS welcome!!!!</title>
 
     <style>
+        /* Tag selector */
         p {
             /* Colors */
             /* color: #856895; -- hexadecimal */
             /* color: rgb(87, 117, 194); -- RGB */
             /* color: rgba(34, 121, 32, 0.6); -- RGBA */
-            color: green;
+            color: blueviolet;
 
             /* Sizes */
             /* font-size: 1080px; 1 px = 1/96 inch (дюйма) */
             /* font-size: 20pt; -- typographic punkts */
             font-size: 20px;
         }
+
+        /* ID selector */
+        #heading { 
+            color: blueviolet;
+            font-size: 50px;
+        }
+
+        /* DRY - Don`t repeat yourself */
+        /* Class selector */
+        .green-text { 
+            color: green;
+        }
+
+        .big-text {
+            font-size: 90px;
+        }
     </style>
   </head>
   <body title="Hello world">
     <h1>Heading</h1>
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat sed
-      reprehenderit culpa ipsa omnis. Debitis dicta nam voluptas similique
-      blanditiis beatae impedit veritatis non consequuntur animi eum vel, amet
+        <span class="green-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat sed
+            reprehenderit culpa ipsa omnis. Debitis dicta nam voluptas similique
+            blanditiis b</span>
+      eatae impedit veritatis non consequuntur animi eum vel, amet
       distinctio quae sint. At blanditiis quaerat nisi deleniti, soluta magni!
       Veniam possimus, id incidunt hic asperiores minima aliquid ratione
       laboriosam nihil?
     </p>
 
     <article>
-      <h2>Subheading</h2>
+      <h2 id="heading">Subheading</h2>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, blanditiis
-        necessitatibus possimus perferendis amet vero obcaecati magni, modi
-        tempora nobis a, pariatur ipsam illum quam harum rerum esse nisi minima
+        <span class="green-text big-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, blanditiis
+            necessitatibus possimus perferendis amet vero obcaecati magni, modi
+            tempora nobis a, par</span>
+        iatur ipsam illum quam harum rerum esse nisi minima
         quaerat voluptatibus. Fugiat vitae veritatis ullam iste rem provident
         voluptatum laboriosam deleniti numquam quaerat delectus libero, hic
         recusandae. Deleniti error placeat sapiente odio, quod facere
         necessitatibus quidem quisquam cumque vel! Fuga iste nisi ad odio
         consequatur esse expedita, explicabo laudantium excepturi iusto eius
-        adipisci maxime quas fugit suscipit error blanditiis veniam at, hic
-        repudiandae! Cumque hic iste quam aut veniam quaerat eius. Fugit
-        possimus, quis, molestias unde optio veritatis blanditiis praesentium
-        omnis quia molestiae provident. Magni enim quae voluptatem velit,
+        <span>adipisci maxime quas fugit suscipit error blanditiis veniam at, hic
+            repudiandae! Cumque hic iste quam aut veniam quaerat eius. Fugit
+            possimus, quis, molestias unde optio veritatis blanditiis praesentium
+            omnis quia molestiae pro</span>
+        vident. Magni enim quae voluptatem velit,
         aperiam nostrum suscipit saepe nam eligendi voluptatum iusto, cumque
         aliquid maiores autem ad quia delectus, maxime molestias provident.
         Dicta perspiciatis officia qui excepturi distinctio est, enim laborum
