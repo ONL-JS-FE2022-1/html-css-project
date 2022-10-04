@@ -7,7 +7,7 @@
     <title>CSS welcome!!!!</title>
 
     <style>
-        /* Tag selector */
+        /* Tag selector - 0001 */
         p {
             /* Colors */
             /* color: #856895; -- hexadecimal */
@@ -21,21 +21,30 @@
             font-size: 20px;
         }
 
-        /* ID selector */
+        /* Tag selector - 0001 */
+        h1, h2, h3 {
+            font-size: 150px;
+            background-color: aquamarine;
+        }
+
+        /* ID selector - 0100*/
         #heading { 
             color: blueviolet;
             font-size: 50px;
         }
 
         /* DRY - Don`t repeat yourself */
-        /* Class selector */
+        /* Class selector - 0010 */
         .green-text { 
             color: green;
         }
 
         .big-text {
             font-size: 90px;
+            color: blue;
         }
+
+        /* inline - 1000 */
     </style>
   </head>
   <body title="Hello world">
@@ -51,7 +60,7 @@
     </p>
 
     <article>
-      <h2 id="heading">Subheading</h2>
+      <h2 id="heading" style="color: red;">Subheading</h2>
       <p>
         <span class="green-text big-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, blanditiis
             necessitatibus possimus perferendis amet vero obcaecati magni, modi
