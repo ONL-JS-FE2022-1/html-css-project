@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'Gemunu Libre';
+  src: url("./fonts/GemunuLibre-Regular.ttf") format("TrueType");
+  /* format: https://developer.mozilla.org/ru/docs/Web/CSS/@font-face#mime-%D1%82%D0%B8%D0%BF%D1%8B_%D1%88%D1%80%D0%B8%D1%84%D1%82%D0%BE%D0%B2 */
+}
+
+body {
+  /* font-family: 'Courier New', Courier, monospace; */
+  /* font-family: 'Passions Conflict', cursive; */
+  font-family: 'Gemunu Libre', monospace;
+}
+
 /* Tag selector - 0001 */
 p {
   /* Colors */
