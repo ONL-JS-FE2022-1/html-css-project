@@ -1,77 +1,21 @@
-@font-face {
-  font-family: 'Gemunu Libre';
-  src: url("./assets/fonts/GemunuLibre-Regular.ttf") format("TrueType");
-  /* format: https://developer.mozilla.org/ru/docs/Web/CSS/@font-face#mime-%D1%82%D0%B8%D0%BF%D1%8B_%D1%88%D1%80%D0%B8%D1%84%D1%82%D0%BE%D0%B2 */
-}
-
 body {
-  /* font-family: 'Courier New', Courier, monospace; */
-  /* font-family: 'Passions Conflict', cursive; */
-  font-family: 'Gemunu Libre', monospace;
+  color: rgb(249, 153, 35);
 }
 
-/* Tag selector - 0001 */
-p {
-  /* Colors */
-  /* color: #856895; -- hexadecimal */
-  /* color: rgb(87, 117, 194); -- RGB */
-  /* color: rgba(34, 121, 32, 0.6); -- RGBA */
-  color: blueviolet;
-  line-height: 1.3em; /* em - відносна одиниця виміру. 1em - один розмір шрифту */
-
-  /* Sizes */
-  /* font-size: 1080px; 1 px = 1/96 inch (дюйма) */
-  /* font-size: 20pt; -- typographic punkts */
-  font-size: 20px;
+.main-article {
+  font-size: 60px;
+  color: inherit;
+  border: 5px solid red;
 }
 
-/* Tag selector - 0001 */
-h1,
-h2,
-h3 {
-  font-size: 150px;
-  background-color: aquamarine;
+.article-header {
+  
 }
 
-/* ID selector - 0100*/
-#heading {
-  color: blueviolet;
-  font-size: 50px;
+.article-content {
+  border: inherit;
 }
 
-/* DRY - Don`t repeat yourself */
-/* Class selector - 0010 */
-.green-text {
-  color: green;
-}
-
-.big-text {
-  font-size: 90px;
-  color: blue;
-}
-
-/* inline - 1000 */
-
-h1 {
-  text-align: center;
-}
-
-p {
-  text-align: justify;
-}
-
-button {
-  text-transform: lowercase;
-}
-
-a {
-  /* full */
-  /* text-decoration-line: underline;
-  text-decoration-style: wavy;
-  text-decoration-color: red; */
-  /* сокращенній */
-  /*text-decoration: underline wavy red;*/
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
+.article-link {
+  color: inherit;
 }
