@@ -1,7 +1,14 @@
-li:first-child {
-  color: blue;
+li:nth-child(5) {
+  color: white;
+  background-color: black;
 }
 
-li:last-child {
-  color: blue;
-}
+/*
+
+n = x;
+
+x=1, 2x = 2 (1 * 2 = 2);
+x=2, 2x = 4 (2 * 2 = 4);
+x=3, 2x = 6 (3 * 2 = 6);
+
+*/
