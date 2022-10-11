@@ -14,8 +14,8 @@
 .inner {
   text-align: center;
   font-size: 40px;
-  /* width: 80px; */
-  /* height: 80px; */
+  width: 80px;
+  height: 80px;
   background-color: forestgreen;
   border: 1px solid black;
 }
@@ -33,9 +33,6 @@
 .div3 {
   position: fixed;
   top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
 }
 
 .div4 {
