@@ -21,7 +21,8 @@
 }
 
 .div1 {
-  
+  position: absolute;
+  top: 200px;
 }
 
 .div2 {
@@ -32,7 +33,7 @@
 
 .div3 {
   position: fixed;
-  top: 0;
+  top: 50%;
 }
 
 .div4 {
