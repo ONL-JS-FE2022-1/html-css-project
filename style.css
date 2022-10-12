@@ -5,13 +5,24 @@ p {
   position: relative;
 }
 
+p::first-letter {
+  font-size: 36px;
+  color: bisque;
+}
+
 p::before {
   content: '\275D';
-  color: red;
+  color: rgb(94, 255, 0);
+  position: absolute;
 
 }
 
 p::after {
   content: '\275E';
   color: green;
+  position: absolute;
+}
+
+p::first-line {
+  background-color: rgb(235, 14, 242);
 }
