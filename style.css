@@ -1,28 +1,23 @@
-p {
-  color: blue;
-  font-size: 20px;
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: flex-end;
+  min-height: 500px;
   border: 1px solid black;
-  position: relative;
 }
 
-p::first-letter {
-  font-size: 36px;
-  color: bisque;
-}
-
-p::before {
-  content: '\275D';
-  color: rgb(94, 255, 0);
-  position: absolute;
-
-}
-
-p::after {
-  content: '\275E';
-  color: green;
-  position: absolute;
-}
-
-p::first-line {
-  background-color: rgb(235, 14, 242);
+.item {
+  width: 50px;
+  height: 50px;
+  background-color: teal;
+  color:white;
+  font-size: 2em;
+  text-align: center;
+  border: 2px solid red;
+  display: inline-block;
 }
