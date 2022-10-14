@@ -9,28 +9,15 @@
   </head>
   <body>
 
-    <section class="card-container">
-      <div class="header"></div>
-      <article class="card">
-        <img src="./assets/pictures/unnamed.jpg" alt="Cat Barsik" class="user-img">
-        <h2>Barsik</h2>
-        <h3>Pretty cat</h3>
-        <section class="links">
-          <div>
-            <p>323</p>
-            <span>followers</span>
-          </div>
-          <div>
-            <p>290</p>
-            <span>following</span>
-          </div>
-          <div>
-            <p>22</p>
-            <span>stories</span>
-          </div>
-        </section>
-      </article>
-    </section>
+    <form class="form">
+      <h2>Sign In</h2>
+      <!-- варіант 1 (id) -->
+      <label for="email-form">Type your email</label>
+      <input type="text" placeholder="email" autofocus id="email-form">
+       <!-- варіант 2 (label => input)  -->
+      <label>Type your password <input type="password" placeholder="password"></label>
+      <button>Sign In</button>
+    </form>
     
   </body>
 </html>
