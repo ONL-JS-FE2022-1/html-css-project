@@ -42,7 +42,7 @@
       <label><input type="radio" value="IsBlack" name="mega-questions">чорний?</label>
       <label><input type="radio" value="IsBusinessman" name="mega-questions">снюс є?</label>
 
-      <fieldset>
+      <!-- <fieldset>
         <legend>Choose your city</legend>
 
         <select name="city">
@@ -56,6 +56,21 @@
           <option value="Kharkiv">Kharkiv</option>
           <option value="Mykolaiv">Mykolaiv</option>
         </select>
+      </fieldset> -->
+
+      <fieldset>
+        <legend>Choose your city</legend>
+        <input type="text" name="city" list="city-list">
+
+        <datalist id="city-list">
+          <option value="Kyiv"></option>
+          <option value="Dnipro"></option>
+          <option value="Kryvyi Rig"></option>
+          <option value="Marganets"></option>
+          <option value="Pavlograd"></option>
+          <option value="Kharkiv"></option>
+          <option value="Mykolaiv"></option>
+        </datalist>
       </fieldset>
 
       <button type="submit">Sign In</button>
