@@ -1,10 +1,21 @@
-@charset "utf-8";
-
-@font-face {
-  font-family: "Gemunu Libre";
-  src: url('./assets/fonts/GemunuLibre-Regular.ttf') format('TrueType');
+* {
+  box-sizing: border-box;
+  font-size: 16px;
 }
 
-p {
-  font-family: "Gemunu Libre";
+ul {
+  font-size: 0;
 }
+
+li {
+  display: inline-block;
+  background-color: red;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+/*
+1 em = 1 parent font-size
+rem = relative em (root em)
+1 rem = 1 font-size root
+*/
