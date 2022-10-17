@@ -14,8 +14,11 @@ li {
   font-size: 1.5rem;
 }
 
-/*
-1 em = 1 parent font-size
-rem = relative em (root em)
-1 rem = 1 font-size root
-*/
+@media screen and (min-width: 300px) and (max-width: 500px) {
+  li {
+    display: block;
+    background-color: rgb(8, 122, 19);
+    padding: 10px;
+    font-size: 1.5rem;
+  }
+}
