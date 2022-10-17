@@ -1,5 +1,10 @@
-.form {
-  display: flex;
-  flex-direction: column;
-  max-width: 400px;
+@charset "utf-8";
+
+@font-face {
+  font-family: "Gemunu Libre";
+  src: url('./assets/fonts/GemunuLibre-Regular.ttf') format('TrueType');
+}
+
+p {
+  font-family: "Gemunu Libre";
 }
